@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<form th:action="@{/urls}" method="post">
+		<label>url 만들기</label> <br/><input type="text" name="oUrl" /><br />
+		<input type="hidden" name="count"  value="0"/>
+		<label>내용</label>
+		<input type="submit" value="생성" />
+	</form>
+	
+</body>
+</html>
